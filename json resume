@@ -1,0 +1,60 @@
+let myResume={ 
+    "basics":{ 
+        "name":"SUNDARARAJ T" 
+        "email": "sundar160699@gmail.com" 
+        "phone":8531970662, 
+        "degree":"B.E", 
+        "location":{ 
+            "adress":"2/375,puthukkotai",
+            "postalcode":626103,
+            "city":"sivakasi", 
+            "state":"tamilnadu",
+            "country":"india" 
+        }, 
+        "profile":{ 
+            {
+                "website": "https://WWW.linked.com/in/sundarraj-t-853197066/",
+                "github":"https://gitup.com/sundararaj-ST"
+            } 
+            ] 
+        }, 
+        "work":[ 
+            { 
+                "company":["photopilehub PVT", 
+                "position":"Business Executive", 
+                "starDate":"2020-11-04",
+                "end date":"2021-08-15",
+                "summary":"i am the business executive handling various task and gaining lots of experience",
+            },
+            "education":[
+                { 
+                    "institution":"sri vidya college of engineering and techmology"'
+                    "department":"mechanical",
+                "study type":"full time",
+                "batch start year":2015,
+                "batch end year":2019,
+                "gpa":7.5,
+            }
+            ],
+            "skills":[
+                {
+                    "name":"javascript",
+                    "leval":"beginer",
+                    "project":[ 
+                        "automatic attendance maintaining system using javascript language",
+                        ]
+                }
+                ],
+                "lamguages":[
+                    {
+                        "language":"tamil,english",
+                    }
+                    ],
+                    "intrestests"[
+                        {
+                            "name":"script writter,youtuber,",
+                        }
+                        ]
+                    }
+                    console.log(myResume);
+            

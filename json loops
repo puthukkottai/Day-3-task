@@ -1,0 +1,39 @@
+var json =[{
+    "id":"raja1",
+    "msg";"for the giiven json itraction over all for loops (for,for in,for of,forEach),
+    "task":"zen portal task",
+    "mail":"rajarat6@gmail.com"
+},
+{
+    "id":"raja2",
+    "msg":"for the given json iterate over all for loops(for,for in,for of,forEach)",
+    :task:"zen portal task",
+    "mail":"rajarat62gmail.com"
+}];
+//for loop
+ for(var i=0;i<json.length;i++){
+        var obj =json[i];
+        console.log(obj.id);
+        console.log(obj.msg);
+        console.log(obj.task);
+        console.log(obj.mail);
+    }
+    //for Each
+    json.forEach(function(obj){
+        console.log(obj.msg)});
+      
+    //for In
+    for(var key in json){
+        if (json.hasowmproperty(key)){ 
+            console.log(json[key].id); 
+            //console.log9json[key].msg);
+
+    }
+    }
+    //for of 
+    let text=""; 
+    for(let x of json[key].id){
+        text +=x; 
+    } 
+    console.log(text);
+
